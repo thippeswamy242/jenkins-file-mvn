@@ -32,7 +32,7 @@ pipeline {
             steps {
                 sh 'sudo mkdir /root/demo'
                 sh 'hostname -i'
-                sh 'sudo mvn clean compile /home/ec2-user/newdirectory'
+                sh 'sudo mvn clean /home/ec2-user/newdirectory'
             
             }
         }
