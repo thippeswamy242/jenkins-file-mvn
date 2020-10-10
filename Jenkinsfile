@@ -26,9 +26,9 @@ pipeline {
         }
         
         stage('Build') {
-           // agent { 
-           //     label 'slave-2'
-           // }
+           agent { 
+               label 'slave-2'
+           }
             steps {
                 sh 'sudo mkdir /root/demo'
                 sh 'hostname -i'
