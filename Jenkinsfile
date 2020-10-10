@@ -27,7 +27,7 @@ pipeline {
         
         stage('Build') {
            agent { 
-               label 'slave-2'
+               label 'slave-1'
            }
             steps {
                 sh 'sudo mkdir /root/demo'
