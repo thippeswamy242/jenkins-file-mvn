@@ -30,8 +30,8 @@ pipeline {
                label 'slave-1'
            }
             steps {
-                sh 'sudo mkdir /root/demo'
-                sh 'hostname -i'
+                //sh 'sudo mkdir /root/demo'
+                //sh 'hostname -i'
                 sh 'sudo mvn clean /home/ec2-user/newdirectory'
             
             }
