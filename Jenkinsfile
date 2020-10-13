@@ -19,7 +19,7 @@ pipeline {
               //  sh 'sudo rm -rf /root/demo'
               //  sh 'sudo rm -rf /root/demo1'
                 sh 'sudo rm -rf /home/ec2-user/newdirectory'
-             //   sh 'sudo rm -rf *;sudo git clone https://github.com/thippeswamy242/hello-world.git /home/ec2-user/newdirectory'
+                sh 'sudo rm -rf *;sudo git clone https://github.com/thippeswamy242/hello-world.git /home/ec2-user/newdirectory'
              //   sh 'sudo mvn clean /home/ec2-user/newdirectory'
             
             }
